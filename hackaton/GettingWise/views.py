@@ -5,3 +5,4 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("Welcome to GettingWise by team that does not have a name yet!")
+    return render(request, 'GettingWise/index.html')
